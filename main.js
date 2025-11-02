@@ -1,5 +1,5 @@
 // OpenWeatherMap API configuration
-const API_KEY = 'YOUR_API_KEY_HERE'; // Users need to get their own API key from openweathermap.org
+const API_KEY = 'bb77ef38b28e33817d96799acb48fcb9'; // Users need to get their own API key from openweathermap.org
 const API_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
 // Get DOM elements
@@ -49,7 +49,7 @@ function displayWeather(data) {
         <div class="weather-card">
             <h2 class="city-name">${name}, ${sys.country}</h2>
             <div class="weather-icon">
-                <img src="https://openweathermap.org/img/wn/${weather[0].icon}@2x.png" alt="${weather[0].description}">
+                <img src="https://openweathermap.org/img/wn/${weather[0].icon}@2x.png" alt="${weather[0].description}" />
             </div>
             <div class="temperature">${Math.round(main.temp)}°C</div>
             <div class="description">${weather[0].description}</div>
