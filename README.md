@@ -25,3 +25,4 @@ A dynamic weather dashboard that fetches real-time weather data from the OpenWea
 ## Live Demo
 
 The app is hosted on GitHub Pages.
+https://abhishekmeena15081947.github.io/weather-dashboard/
